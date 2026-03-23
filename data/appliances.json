@@ -1,0 +1,123 @@
+[
+    {
+        "id": "lg-washing-machine-8kg",
+        "name": "غسالة LG 8 كيلو",
+        "nameEn": "LG Washing Machine 8kg",
+        "price": 18500,
+        "image": "https://www.lg.com/eg/images/washing-machines/md07544220/gallery/D-01.jpg",
+        "gallery": [
+            "https://www.lg.com/eg/images/washing-machines/md07544220/gallery/D-01.jpg",
+            "https://www.lg.com/eg/images/washing-machines/md07544220/gallery/D-02.jpg"
+        ],
+        "specs": {
+            "display": "شاشة ديجيتال LED",
+            "processor": "محرك عاكس مباشر",
+            "ram": "ذاكرة 4 برامج",
+            "storage": "سعة 8 كيلو",
+            "battery": "كفاءة A+++",
+            "camera": "نظام 6 حركات"
+        },
+        "description": "غسالة LG بتقنية المحرك العاكس المباشر، تشغيل هادئ، وكفاءة عالية في استهلاك الطاقة مع ضمان 10 سنوات على المحرك.",
+        "descriptionEn": "LG washing machine with Inverter Direct Drive technology, quiet operation, and high energy efficiency with 10-year motor warranty."
+    },
+    {
+        "id": "fresh-air-conditioner-3hp",
+        "name": "تكييف فريش 3 حصان",
+        "nameEn": "Fresh Air Conditioner 3HP",
+        "price": 22500,
+        "image": "https://fresh.com.eg/wp-content/uploads/2023/01/Fresh-AC-3HP.jpg",
+        "gallery": [
+            "https://fresh.com.eg/wp-content/uploads/2023/01/Fresh-AC-3HP.jpg"
+        ],
+        "specs": {
+            "display": "شاشة LED",
+            "processor": "كمبروسر انفرتر",
+            "ram": "R32 غاز صديق للبيئة",
+            "storage": "تبريد وتدفئة",
+            "battery": "كفاءة A++",
+            "camera": "فلتر مضاد للبكتيريا"
+        },
+        "description": "تكييف فريش 3 حصان انفرتر، تبريد وتدفئة، بتقنية توفير الطاقة وغاز R32 الصديق للبيئة.",
+        "descriptionEn": "Fresh 3HP inverter air conditioner, cooling and heating, with energy saving technology and eco-friendly R32 gas."
+    },
+    {
+        "id": "ideal-refrigerator-14ft",
+        "name": "ثلاجة ايديال 14 قدم",
+        "nameEn": "Ideal Refrigerator 14ft",
+        "price": 15900,
+        "image": "https://idealeg.com/wp-content/uploads/2022/10/Ideal-Ref-14ft.jpg",
+        "gallery": [
+            "https://idealeg.com/wp-content/uploads/2022/10/Ideal-Ref-14ft.jpg"
+        ],
+        "specs": {
+            "display": "تحكم إلكتروني",
+            "processor": "كمبروسر انفرتر",
+            "ram": "نوفروست",
+            "storage": "سعة 14 قدم",
+            "battery": "كفاءة A++",
+            "camera": "إضاءة LED"
+        },
+        "description": "ثلاجة ايديال 14 قدم نوفروست، نظام تبريد متطور، موفرة للطاقة، وتصميم عصري.",
+        "descriptionEn": "Ideal 14ft No Frost refrigerator, advanced cooling system, energy saving, and modern design."
+    },
+    {
+        "id": "universal-gas-cooker-5-burner",
+        "name": "بوتاجاز يونيفرسال 5 شعلة",
+        "nameEn": "Universal Gas Cooker 5 Burner",
+        "price": 8900,
+        "image": "https://universal-eg.com/wp-content/uploads/2022/09/Universal-Cooker-5-Burner.jpg",
+        "gallery": [
+            "https://universal-eg.com/wp-content/uploads/2022/09/Universal-Cooker-5-Burner.jpg"
+        ],
+        "specs": {
+            "display": "فرن غاز",
+            "processor": "شعلات ستانلس",
+            "ram": "إشعال ذاتي",
+            "storage": "5 شعلة",
+            "battery": "أمان كامل",
+            "camera": "شواية داخلية"
+        },
+        "description": "بوتاجاز يونيفرسال 5 شعلة، فرن غاز بشواية، إشعال ذاتي، وتصميم أنيق مقاوم للصدأ.",
+        "descriptionEn": "Universal 5-burner gas cooker, gas oven with grill, auto-ignition, and stylish stainless design."
+    },
+    {
+        "id": "tornado-vacuum-cleaner",
+        "name": "مكنسة تورنيدو 2200 وات",
+        "nameEn": "Tornado Vacuum Cleaner 2200W",
+        "price": 3200,
+        "image": "https://tornado-eg.com/wp-content/uploads/2023/01/Tornado-Vacuum-2200W.jpg",
+        "gallery": [
+            "https://tornado-eg.com/wp-content/uploads/2023/01/Tornado-Vacuum-2200W.jpg"
+        ],
+        "specs": {
+            "display": "قوة شفط 2200 وات",
+            "processor": "فلتر HEPA",
+            "ram": "سعة 2 لتر",
+            "storage": "كابل 5 متر",
+            "battery": "موتور قوي",
+            "camera": "ملحقات متعددة"
+        },
+        "description": "مكنسة تورنيدو بقوة 2200 وات، فلتر HEPA لتنقية الهواء، وملحقات متعددة للتنظيف الشامل.",
+        "descriptionEn": "Tornado vacuum cleaner with 2200W power, HEPA filter for air purification, and multiple accessories for thorough cleaning."
+    },
+    {
+        "id": "superior-water-heater-50l",
+        "name": "سخان سوبيريور 50 لتر",
+        "nameEn": "Superior Water Heater 50L",
+        "price": 4500,
+        "image": "https://superior-eg.com/wp-content/uploads/2022/12/Superior-Water-Heater-50L.jpg",
+        "gallery": [
+            "https://superior-eg.com/wp-content/uploads/2022/12/Superior-Water-Heater-50L.jpg"
+        ],
+        "specs": {
+            "display": "خزان ستانلس ستيل",
+            "processor": "عنصر تسخين نحاس",
+            "ram": "عزل حراري عالي",
+            "storage": "سعة 50 لتر",
+            "battery": "ضمان 5 سنوات",
+            "camera": "ثرموستات أمان"
+        },
+        "description": "سخان سوبيريور 50 لتر، خزان ستانلس ستيل مقاوم للصدأ، عنصر تسخين نحاس، وعزل حراري عالي الجودة.",
+        "descriptionEn": "Superior 50L water heater, stainless steel tank rust-resistant, copper heating element, and high-quality thermal insulation."
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "id": "iphone-15-pro",
+        "name": "iPhone 15 Pro",
+        "nameEn": "iPhone 15 Pro",
+        "price": 52000,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro.jpg",
+        "gallery": [
+            "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro.jpg",
+            "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro-.jpg"
+        ],
+        "specs": {
+            "display": "6.1 inch, LTPO Super Retina XDR OLED, 120Hz",
+            "processor": "Apple A17 Pro (3nm)",
+            "ram": "8GB",
+            "storage": "256GB",
+            "battery": "3274mAh, 20W wired, 15W wireless",
+            "camera": "48 MP Main, 12 MP Ultra Wide, 12 MP Telephoto"
+        },
+        "description": "iPhone 15 Pro يتميز بتصميم من التيتانيوم وشريحة A17 Pro الأقوى على الإطلاق، مع كاميرا احترافية ونظام تشغيل iOS المتطور.",
+        "descriptionEn": "iPhone 15 Pro features a titanium design and the powerful A17 Pro chip, with a professional camera system and iOS."
+    },
+    {
+        "id": "samsung-s24-ultra",
+        "name": "Samsung Galaxy S24 Ultra",
+        "nameEn": "Samsung Galaxy S24 Ultra",
+        "price": 48000,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-ultra.jpg",
+        "gallery": [
+            "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-ultra.jpg"
+        ],
+        "specs": {
+            "display": "6.8 inch, Dynamic AMOLED 2X, 120Hz, HDR10+",
+            "processor": "Snapdragon 8 Gen 3 (4nm)",
+            "ram": "12GB",
+            "storage": "256GB",
+            "battery": "5000mAh, 45W wired, 15W wireless",
+            "camera": "200 MP Main, 50 MP Telephoto, 12 MP Ultra Wide"
+        },
+        "description": "Samsung Galaxy S24 Ultra الهاتف الرائد الجديد من سامسونج مع تقنيات الذكاء الاصطناعي المتطورة وكاميرا بدقة 200 ميجابكسل.",
+        "descriptionEn": "Samsung Galaxy S24 Ultra with advanced AI features and 200MP camera."
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "id": "airpods-pro",
+        "name": "AirPods Pro",
+        "nameEn": "AirPods Pro",
+        "price": 4500,
+        "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-pro-2-hero?wid=2000&hei=2000&fmt=jpeg",
+        "gallery": [
+            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-pro-2-hero?wid=2000&hei=2000&fmt=jpeg"
+        ],
+        "specs": {
+            "type": "True Wireless",
+            "noise_cancelling": "Active Noise Cancellation",
+            "battery": "6 hours",
+            "charging": "MagSafe Wireless",
+            "water_resistance": "IPX4",
+            "chip": "H2"
+        },
+        "description": "AirPods Pro مع تقنية إلغاء الضوضاء النشطة وجودة صوت استثنائية ومقاومة للماء.",
+        "descriptionEn": "AirPods Pro with Active Noise Cancellation, exceptional sound quality, and water resistance."
+    }
+]

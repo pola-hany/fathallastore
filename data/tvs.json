@@ -1,0 +1,22 @@
+[
+    {
+        "id": "samsung-oled-4k",
+        "name": "Samsung OLED 4K TV",
+        "nameEn": "Samsung OLED 4K TV",
+        "price": 35000,
+        "image": "https://images.samsung.com/is/image/samsung/p6pim/levant/qa65s90cauxtn/gallery/levant-uhd-4k-tv-qa65s90cauxtn-537917020",
+        "gallery": [
+            "https://images.samsung.com/is/image/samsung/p6pim/levant/qa65s90cauxtn/gallery/levant-uhd-4k-tv-qa65s90cauxtn-537917020"
+        ],
+        "specs": {
+            "display": "65 inch OLED 4K",
+            "resolution": "3840 x 2160",
+            "processor": "Neural Quantum Processor",
+            "smart": "Tizen OS",
+            "audio": "40W 2.1ch",
+            "hdr": "HDR10+, Dolby Atmos"
+        },
+        "description": "تلفزيون سامسونج OLED بدقة 4K مع ألوان غنية وتباين لا نهائي وتقنيات الذكاء الاصطناعي.",
+        "descriptionEn": "Samsung OLED 4K TV with rich colors, infinite contrast, and AI technology."
+    }
+]

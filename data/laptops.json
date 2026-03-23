@@ -1,0 +1,22 @@
+[
+    {
+        "id": "macbook-pro-m4",
+        "name": "MacBook Pro M4",
+        "nameEn": "MacBook Pro M4",
+        "price": 85000,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-macbook-pro-16-2023.jpg",
+        "gallery": [
+            "https://fdn2.gsmarena.com/vv/bigpic/apple-macbook-pro-16-2023.jpg"
+        ],
+        "specs": {
+            "display": "14.2 inch Liquid Retina XDR, 120Hz",
+            "processor": "Apple M4 (10-core)",
+            "ram": "16GB",
+            "storage": "512GB SSD",
+            "battery": "Up to 22 hours",
+            "weight": "1.6 kg"
+        },
+        "description": "MacBook Pro بشريحة M4 الجديدة أداء خارق مع عمر بطارية طويل وجودة تصنيع استثنائية.",
+        "descriptionEn": "MacBook Pro with M4 chip delivers exceptional performance and battery life."
+    }
+]

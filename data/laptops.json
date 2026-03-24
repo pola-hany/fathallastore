@@ -118,5 +118,32 @@
         },
         "description": "لاب توب رفيع وقوي للألعاب مع تصميم أنيق وأداء ممتاز",
         "descriptionEn": "Slim and powerful gaming laptop with elegant design and excellent performance"
-    }
+    },
+    {
+    "id": "lenovo-loq-15iax9",
+    "name": "لابتوب Lenovo LOQ 15IAX9",
+    "nameEn": "Lenovo LOQ 15IAX9 Laptop",
+    "price": 28500,
+    "image": "https://i.ibb.co/Xx64Fk9P/x.jpg",
+    "gallery": [
+        "https://i.ibb.co/Xx64Fk9P/x.jpg",
+        "https://i.ibb.co/x8McJdVP/x.jpg",
+        "https://i.ibb.co/4n2JFP5q/x.jpg"
+    ],
+    "specs": {
+        "المعالج (CPU)": "Intel Core i5-12450HX",
+        "كرت الشاشة (GPU)": "NVIDIA GeForce RTX 3050 (6GB GDDR6)",
+        "الذاكرة (RAM)": "12GB",
+        "التخزين (Storage)": "512GB SSD M.2 PCIe 4.0x4 NVMe",
+        "الشاشة (Display)": "15.6 بوصة FHD (1920x1080) IPS, 144Hz, G-SYNC",
+        "نظام التشغيل": "Dos",
+        "البطارية": "شاحن 170W - يدعم الشحن السريع",
+        "مميزات إضافية": "شريحة LA1 للذكاء الاصطناعي، لوحة مفاتيح بإضاءة خلفية، متانة MIL-STD-810H",
+        "المنافذ (Ports)": "USB-C, USB-A 3.2, HDMI 2.1, RJ-45, مقبس سماعة",
+        "الاستخدامات": "الألعاب، التصميم (Adobe)، المونتاج (Premiere Pro)، الهندسة (AutoCAD, Blender)، البرمجة (Visual Studio, Android Studio)"
+    },
+    "description": "لابتوب Lenovo LOQ 15IAX9 للمحترفين والألعاب، معالج Intel Core i5-12450HX، كارت شاشة RTX 3050 6GB، ذاكرة 12GB رام، تخزين 512GB SSD، شاشة 144Hz بتقنية G-SYNC، شريحة ذكاء اصطناعي LA1 لتحسين الأداء، مناسب للألعاب والتصميم والمونتاج والبرمجة والهندسة.",
+    "descriptionEn": "Lenovo LOQ 15IAX9 laptop for professionals and gaming, Intel Core i5-12450HX processor, RTX 3050 6GB graphics, 12GB RAM, 512GB SSD, 144Hz G-SYNC display, LA1 AI chip for performance optimization, suitable for gaming, design, video editing, programming, and engineering."
+}
+
 ]

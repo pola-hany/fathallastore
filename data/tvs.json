@@ -1,22 +1,122 @@
 [
     {
-        "id": "samsung-oled-4k",
-        "name": "Samsung OLED 4K TV",
-        "nameEn": "Samsung OLED 4K TV",
-        "price": 35000,
-        "image": "https://images.samsung.com/is/image/samsung/p6pim/levant/qa65s90cauxtn/gallery/levant-uhd-4k-tv-qa65s90cauxtn-537917020",
+        "id": "samsung-s95c-oled",
+        "name": "Samsung S95C OLED 4K",
+        "nameEn": "Samsung S95C OLED 4K",
+        "price": 45000,
+        "image": "https://images.samsung.com/is/image/samsung/p6pim/levant/qa65s95cauxtn/gallery/levant-uhd-4k-tv-qa65s95cauxtn-537917020",
         "gallery": [
-            "https://images.samsung.com/is/image/samsung/p6pim/levant/qa65s90cauxtn/gallery/levant-uhd-4k-tv-qa65s90cauxtn-537917020"
+            "https://images.samsung.com/is/image/samsung/p6pim/levant/qa65s95cauxtn/gallery/levant-uhd-4k-tv-qa65s95cauxtn-537917020"
         ],
         "specs": {
-            "display": "65 inch OLED 4K",
-            "resolution": "3840 x 2160",
-            "processor": "Neural Quantum Processor",
-            "smart": "Tizen OS",
-            "audio": "40W 2.1ch",
-            "hdr": "HDR10+, Dolby Atmos"
+            "المقاس": "65 بوصة",
+            "الدقة": "4K Ultra HD",
+            "التقنية": "OLED",
+            "المعدل": "144Hz",
+            "الصوت": "70W 4.2.2ch",
+            "الذكاء": "Tizen OS"
         },
-        "description": "تلفزيون سامسونج OLED بدقة 4K مع ألوان غنية وتباين لا نهائي وتقنيات الذكاء الاصطناعي.",
-        "descriptionEn": "Samsung OLED 4K TV with rich colors, infinite contrast, and AI technology."
+        "description": "شاشة سامسونج OLED بألوان غنية وتباين لا نهائي وتقنيات الذكاء الاصطناعي",
+        "descriptionEn": "Samsung OLED TV with rich colors, infinite contrast, and AI technology"
+    },
+    {
+        "id": "lg-c3-oled",
+        "name": "LG C3 OLED evo 4K",
+        "nameEn": "LG C3 OLED evo 4K",
+        "price": 42000,
+        "image": "https://www.lg.com/eg/images/tvs/md08002720/gallery/D-01.jpg",
+        "gallery": [
+            "https://www.lg.com/eg/images/tvs/md08002720/gallery/D-01.jpg"
+        ],
+        "specs": {
+            "المقاس": "65 بوصة",
+            "الدقة": "4K Ultra HD",
+            "التقنية": "OLED evo",
+            "المعدل": "120Hz",
+            "الصوت": "40W 2.2ch",
+            "الذكاء": "webOS 23"
+        },
+        "description": "شاشة LG OLED evo بتقنية Brightness Booster وصورة أكثر سطوعًا",
+        "descriptionEn": "LG OLED evo TV with Brightness Booster technology for brighter picture"
+    },
+    {
+        "id": "sony-a80l-oled",
+        "name": "Sony A80L OLED 4K",
+        "nameEn": "Sony A80L OLED 4K",
+        "price": 48000,
+        "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/KD-65A80L_01",
+        "gallery": [
+            "https://sony.scene7.com/is/image/sonyglobalsolutions/KD-65A80L_01"
+        ],
+        "specs": {
+            "المقاس": "65 بوصة",
+            "الدقة": "4K Ultra HD",
+            "التقنية": "OLED",
+            "المعدل": "120Hz",
+            "الصوت": "50W 2.2ch",
+            "الذكاء": "Google TV"
+        },
+        "description": "شاشة سوني مع معالج Cognitive Processor XR وصوت محيطي غامر",
+        "descriptionEn": "Sony TV with Cognitive Processor XR and immersive surround sound"
+    },
+    {
+        "id": "tcl-c845-mini-led",
+        "name": "TCL C845 Mini LED 4K",
+        "nameEn": "TCL C845 Mini LED 4K",
+        "price": 28000,
+        "image": "https://www.tcl.com/eg/static/media/C845.1a2b3c4d.jpg",
+        "gallery": [
+            "https://www.tcl.com/eg/static/media/C845.1a2b3c4d.jpg"
+        ],
+        "specs": {
+            "المقاس": "65 بوصة",
+            "الدقة": "4K Ultra HD",
+            "التقنية": "Mini LED",
+            "المعدل": "144Hz",
+            "الصوت": "60W 2.1ch",
+            "الذكاء": "Google TV"
+        },
+        "description": "شاشة TCL بتقنية Mini LED بألوان زاهية وسطوع عالي بسعر ممتاز",
+        "descriptionEn": "TCL TV with Mini LED technology for bright colors and excellent price"
+    },
+    {
+        "id": "hisense-u8k-mini-led",
+        "name": "Hisense U8K Mini LED 4K",
+        "nameEn": "Hisense U8K Mini LED 4K",
+        "price": 32000,
+        "image": "https://hisense-eg.com/wp-content/uploads/2023/05/U8K.jpg",
+        "gallery": [
+            "https://hisense-eg.com/wp-content/uploads/2023/05/U8K.jpg"
+        ],
+        "specs": {
+            "المقاس": "65 بوصة",
+            "الدقة": "4K Ultra HD",
+            "التقنية": "Mini LED",
+            "المعدل": "144Hz",
+            "الصوت": "50W 2.1.2ch",
+            "الذكاء": "Google TV"
+        },
+        "description": "شاشة Hisense بتقنية Mini LED Pro وسطوع يصل إلى 1500 nits",
+        "descriptionEn": "Hisense TV with Mini LED Pro technology and up to 1500 nits brightness"
+    },
+    {
+        "id": "xiaomi-tv-q2",
+        "name": "Xiaomi TV Q2 4K",
+        "nameEn": "Xiaomi TV Q2 4K",
+        "price": 18000,
+        "image": "https://i01.appmifile.com/webfile/globalimg/products/pb/mi-tv-q2-65/specs-img.png",
+        "gallery": [
+            "https://i01.appmifile.com/webfile/globalimg/products/pb/mi-tv-q2-65/specs-img.png"
+        ],
+        "specs": {
+            "المقاس": "65 بوصة",
+            "الدقة": "4K Ultra HD",
+            "التقنية": "QLED",
+            "المعدل": "60Hz",
+            "الصوت": "30W",
+            "الذكاء": "Google TV"
+        },
+        "description": "شاشة Xiaomi QLED بتقنية Quantum Dot بألوان نابضة بالحياة وبسعر اقتصادي",
+        "descriptionEn": "Xiaomi QLED TV with Quantum Dot technology for vibrant colors at an affordable price"
     }
 ]

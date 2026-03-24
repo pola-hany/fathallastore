@@ -2,27 +2,25 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>فتح الله - الأجهزة المنزلية</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فتح الله - الأجهزة المنزلية والإلكترونيات</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <nav class="navbar">
         <div class="container">
             <div class="logo">
-                <img src="https://i.imgur.com/placeholder-fathalla-logo.png" alt="فتح الله" class="logo-img" onerror="this.src='https://via.placeholder.com/120x40?text=%D9%81%D8%AA%D8%AD+%D8%A7%D9%84%D9%84%D9%87'">
-                <span data-i18n="store_name">فتح الله</span>
+                <i class="fas fa-store"></i>
+                <span id="storeName"></span>
             </div>
             <div class="nav-links">
-                <a href="index.html" class="active" data-i18n="home">الرئيسية</a>
-                <a href="#products" data-i18n="products">المنتجات</a>
+                <a href="index.html" class="active" id="homeLink"></a>
+                <a href="#products" id="productsLink"></a>
                 <button class="lang-btn" id="langToggle">
-                    <i class="fas fa-globe"></i>
-                    English
+                    <i class="fas fa-globe"></i> English
                 </button>
             </div>
         </div>
@@ -30,19 +28,19 @@
 
     <section class="hero">
         <div class="container">
-            <div class="hero-content" data-aos="fade-up">
+            <div class="hero-content">
                 <div class="hero-badge">
                     <i class="fas fa-tag"></i>
-                    <span>منذ 1948</span>
+                    <span id="sinceBadge"></span>
                 </div>
-                <h1 data-i18n="hero_title">فتح الله للأجهزة المنزلية</h1>
-                <p data-i18n="hero_desc">أفضل العروض على الأجهزة الكهربائية والمنزلية بأعلى جودة وأفضل الأسعار</p>
+                <h1 id="heroTitle"></h1>
+                <p id="heroDesc"></p>
                 <div class="hero-features">
-                    <span><i class="fas fa-check-circle"></i> جودة عالية</span>
-                    <span><i class="fas fa-truck"></i> شحن سريع</span>
-                    <span><i class="fas fa-headset"></i> دعم فني</span>
+                    <span><i class="fas fa-check-circle"></i> <span id="feature1"></span></span>
+                    <span><i class="fas fa-truck"></i> <span id="feature2"></span></span>
+                    <span><i class="fas fa-headset"></i> <span id="feature3"></span></span>
                 </div>
-                <a href="#products" class="btn-primary" data-i18n="shop_now">تسوق الآن</a>
+                <a href="#products" class="btn-primary" id="shopBtn"></a>
             </div>
         </div>
     </section>
@@ -51,16 +49,21 @@
         <div class="container">
             <div class="search-box">
                 <i class="fas fa-search"></i>
-                <input type="text" id="searchInput" placeholder="ابحث عن منتج..." data-i18n="search_placeholder">
+                <input type="text" id="searchInput" placeholder="">
             </div>
             <div class="filters">
                 <select id="categoryFilter">
-                    <option value="all" data-i18n="all_categories">جميع الفئات</option>
-                    <option value="appliances" data-i18n="appliances">الأجهزة المنزلية</option>
+                    <option value="all" id="allCategories"></option>
+                    <option value="phones" id="phonesCat"></option>
+                    <option value="laptops" id="laptopsCat"></option>
+                    <option value="tvs" id="tvsCat"></option>
+                    <option value="appliances" id="appliancesCat"></option>
+                    <option value="accessories" id="accessoriesCat"></option>
                 </select>
                 <select id="priceFilter">
-                    <option value="all" data-i18n="all_prices">جميع الأسعار</option>
-                    <option value="0-5000">أقل من 5000</option>
+                    <option value="all" id="allPrices"></option>
+                    <option value="0-2000">أقل من 2000</option>
+                    <option value="2000-5000">2000 - 5000</option>
                     <option value="5000-10000">5000 - 10000</option>
                     <option value="10000-20000">10000 - 20000</option>
                     <option value="20000-50000">20000 - 50000</option>
@@ -73,8 +76,8 @@
     <section class="products" id="products">
         <div class="container">
             <div class="section-header">
-                <h2 data-i18n="featured_products">أحدث الأجهزة المنزلية</h2>
-                <p data-i18n="featured_desc">اكتشف تشكيلتنا المميزة من الأجهزة الكهربائية والمنزلية</p>
+                <h2 id="featuredTitle"></h2>
+                <p id="featuredDesc"></p>
             </div>
             <div id="products-container"></div>
         </div>
@@ -83,25 +86,25 @@
     <section class="features-section">
         <div class="container">
             <div class="features-grid">
-                <div class="feature-card" data-aos="fade-up">
+                <div class="feature-card">
                     <i class="fas fa-medal"></i>
-                    <h3>جودة مضمونة</h3>
-                    <p>من أفضل الماركات العالمية</p>
+                    <h3 id="qualityTitle"></h3>
+                    <p id="qualityDesc"></p>
                 </div>
-                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="feature-card">
                     <i class="fas fa-wallet"></i>
-                    <h3>أفضل الأسعار</h3>
-                    <p>أسعار الجملة للمستهلك</p>
+                    <h3 id="priceTitle"></h3>
+                    <p id="priceDesc"></p>
                 </div>
-                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="feature-card">
                     <i class="fas fa-clock"></i>
-                    <h3>ضمان شامل</h3>
-                    <p>ضمان على جميع المنتجات</p>
+                    <h3 id="warrantyTitle"></h3>
+                    <p id="warrantyDesc"></p>
                 </div>
-                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="feature-card">
                     <i class="fas fa-truck-fast"></i>
-                    <h3>توصيل سريع</h3>
-                    <p>لكافة أنحاء الجمهورية</p>
+                    <h3 id="deliveryTitle"></h3>
+                    <p id="deliveryDesc"></p>
                 </div>
             </div>
         </div>
@@ -119,26 +122,25 @@
                         <i class="fas fa-store"></i>
                         <span>فتح الله</span>
                     </div>
-                    <p>منذ 1948، نقدم لعملائنا أفضل المنتجات بأعلى جودة وأقل الأسعار</p>
+                    <p id="footerDesc"></p>
                 </div>
                 <div class="footer-links">
-                    <h4>روابط سريعة</h4>
-                    <a href="index.html">الرئيسية</a>
-                    <a href="#products">المنتجات</a>
+                    <h4 id="quickLinks"></h4>
+                    <a href="index.html" id="footerHome"></a>
+                    <a href="#products" id="footerProducts"></a>
                 </div>
                 <div class="footer-contact">
-                    <h4>تواصل معنا</h4>
+                    <h4 id="contactUs"></h4>
                     <p><i class="fas fa-phone"></i> 15260</p>
-                    <p><i class="fas fa-envelope"></i> contact-us@fathalla.com</p>
+                    <p><i class="fas fa-envelope"></i> contact@fathalla.com</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p data-i18n="footer">&copy; 2024 فتح الله - جميع الحقوق محفوظة</p>
+                <p id="copyright"></p>
             </div>
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script src="js/translations.js"></script>
     <script src="js/main.js"></script>
 </body>

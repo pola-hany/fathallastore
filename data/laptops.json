@@ -1,22 +1,122 @@
 [
     {
-        "id": "macbook-pro-m4",
-        "name": "MacBook Pro M4",
-        "nameEn": "MacBook Pro M4",
-        "price": 85000,
+        "id": "macbook-pro-m3-max",
+        "name": "MacBook Pro M3 Max",
+        "nameEn": "MacBook Pro M3 Max",
+        "price": 120000,
         "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-macbook-pro-16-2023.jpg",
         "gallery": [
             "https://fdn2.gsmarena.com/vv/bigpic/apple-macbook-pro-16-2023.jpg"
         ],
         "specs": {
-            "display": "14.2 inch Liquid Retina XDR, 120Hz",
-            "processor": "Apple M4 (10-core)",
-            "ram": "16GB",
-            "storage": "512GB SSD",
-            "battery": "Up to 22 hours",
-            "weight": "1.6 kg"
+            "الشاشة": "16.2 بوصة Liquid Retina XDR",
+            "المعالج": "Apple M3 Max (16-core)",
+            "الرام": "36GB",
+            "التخزين": "1TB SSD",
+            "البطارية": "22 ساعة",
+            "الوزن": "2.14 كجم"
         },
-        "description": "MacBook Pro بشريحة M4 الجديدة أداء خارق مع عمر بطارية طويل وجودة تصنيع استثنائية.",
-        "descriptionEn": "MacBook Pro with M4 chip delivers exceptional performance and battery life."
+        "description": "أقوى لابتوب من آبل مع شريحة M3 Max وأداء خرافي للمحترفين",
+        "descriptionEn": "Apple's most powerful laptop with M3 Max chip for professionals"
+    },
+    {
+        "id": "asus-rog-zephyrus-g16",
+        "name": "ASUS ROG Zephyrus G16",
+        "nameEn": "ASUS ROG Zephyrus G16",
+        "price": 85000,
+        "image": "https://dlcdnwebimgs.asus.com/gain/0F9F3E1E-8F6A-4B9A-8F1F-3F8F9F9F9F9F",
+        "gallery": [
+            "https://dlcdnwebimgs.asus.com/gain/0F9F3E1E-8F6A-4B9A-8F1F-3F8F9F9F9F9F"
+        ],
+        "specs": {
+            "الشاشة": "16 بوصة OLED, 240Hz",
+            "المعالج": "Intel Core i9-14900HX",
+            "الرام": "32GB",
+            "التخزين": "1TB SSD",
+            "البطارية": "90Wh",
+            "الكرت": "RTX 4080"
+        },
+        "description": "لاب توب جيمنج فائق الأداء مع شاشة OLED وشريحة Intel من الجيل الرابع عشر",
+        "descriptionEn": "High-performance gaming laptop with OLED screen and 14th Gen Intel"
+    },
+    {
+        "id": "dell-xps-15",
+        "name": "Dell XPS 15",
+        "nameEn": "Dell XPS 15",
+        "price": 65000,
+        "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-15-9530/media-gallery/notebook-xps-15-9530-t-black-gallery-1.psd",
+        "gallery": [
+            "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-15-9530/media-gallery/notebook-xps-15-9530-t-black-gallery-1.psd"
+        ],
+        "specs": {
+            "الشاشة": "15.6 بوصة OLED 3.5K",
+            "المعالج": "Intel Core i7-13700H",
+            "الرام": "32GB",
+            "التخزين": "1TB SSD",
+            "البطارية": "86Wh",
+            "الوزن": "1.86 كجم"
+        },
+        "description": "لاب توب أنيق وقوي للمحترفين مع شاشة OLED مذهلة",
+        "descriptionEn": "Sleek and powerful laptop for professionals with stunning OLED screen"
+    },
+    {
+        "id": "lenovo-legion-pro-7",
+        "name": "Lenovo Legion Pro 7",
+        "nameEn": "Lenovo Legion Pro 7",
+        "price": 72000,
+        "image": "https://p3-ofp.static.pub/fes/cms/2023/08/21/0q1y2c3x4v5b6n7m8l9k0j1i2h3g4f5d.jpg",
+        "gallery": [
+            "https://p3-ofp.static.pub/fes/cms/2023/08/21/0q1y2c3x4v5b6n7m8l9k0j1i2h3g4f5d.jpg"
+        ],
+        "specs": {
+            "الشاشة": "16 بوصة IPS, 240Hz",
+            "المعالج": "AMD Ryzen 9 7945HX",
+            "الرام": "32GB",
+            "التخزين": "1TB SSD",
+            "البطارية": "99.9Wh",
+            "الكرت": "RTX 4080"
+        },
+        "description": "لاب توب جيمنج من Lenovo بأداء خرافي وتبريد متطور",
+        "descriptionEn": "Lenovo gaming laptop with amazing performance and advanced cooling"
+    },
+    {
+        "id": "hp-spectre-x360",
+        "name": "HP Spectre x360",
+        "nameEn": "HP Spectre x360",
+        "price": 58000,
+        "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08684424.png",
+        "gallery": [
+            "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08684424.png"
+        ],
+        "specs": {
+            "الشاشة": "14 بوصة OLED, 2.8K",
+            "المعالج": "Intel Core i7-1355U",
+            "الرام": "16GB",
+            "التخزين": "1TB SSD",
+            "البطارية": "68Wh",
+            "الوزن": "1.35 كجم"
+        },
+        "description": "لاب توب قابل للتحويل 360 درجة مع شاشة لمس وشكل أنيق",
+        "descriptionEn": "Convertible 360-degree laptop with touch screen and elegant design"
+    },
+    {
+        "id": "msi-stealth-16",
+        "name": "MSI Stealth 16",
+        "nameEn": "MSI Stealth 16",
+        "price": 78000,
+        "image": "https://asset.msi.com/global/picture/image/feature/nb/Stealth16StudioA13V/title_img.png",
+        "gallery": [
+            "https://asset.msi.com/global/picture/image/feature/nb/Stealth16StudioA13V/title_img.png"
+        ],
+        "specs": {
+            "الشاشة": "16 بوصة QHD+, 240Hz",
+            "المعالج": "Intel Core i9-13900H",
+            "الرام": "32GB",
+            "التخزين": "2TB SSD",
+            "البطارية": "99.9Wh",
+            "الكرت": "RTX 4070"
+        },
+        "description": "لاب توب رفيع وقوي للألعاب مع تصميم أنيق وأداء ممتاز",
+        "descriptionEn": "Slim and powerful gaming laptop with elegant design and excellent performance"
     }
 ]

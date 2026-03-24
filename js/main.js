@@ -1,29 +1,32 @@
 let allProducts = [];
-let productsData = {};
 
 const categories = ['phones', 'laptops', 'tvs', 'appliances', 'accessories'];
-const categoryNames = {
-    phones: 'الهواتف',
-    laptops: 'اللابتوبات',
-    tvs: 'التلفزيونات',
-    appliances: 'الأجهزة المنزلية',
-    accessories: 'الإكسسوارات'
-};
 
-async function loadAllProducts() {
+async function loadProducts() {
     const container = document.getElementById('products-container');
+    if (!container) return;
+    
     container.innerHTML = '<div class="loading">جاري تحميل المنتجات...</div>';
+    
+    allProducts = [];
     
     try {
         for (const category of categories) {
             const response = await fetch(`data/${category}.json`);
             if (response.ok) {
                 const products = await response.json();
-                productsData[category] = products;
-                allProducts = [...allProducts, ...products.map(p => ({ ...p, category }))];
+                allProducts.push(...products.map(p => ({ ...p, category })));
+            } else {
+                console.warn(`فشل تحميل ${category}.json`);
             }
         }
-        displayProducts();
+        
+        if (allProducts.length === 0) {
+            container.innerHTML = '<div class="no-results">لا توجد منتجات متاحة حالياً</div>';
+        } else {
+            displayProducts();
+        }
+        
         setupFilters();
     } catch (error) {
         console.error('Error loading products:', error);
@@ -37,15 +40,15 @@ function displayProducts() {
     const priceFilter = document.getElementById('priceFilter')?.value || 'all';
     
     let filtered = allProducts.filter(product => {
-        const matchesSearch = product.name.toLowerCase().includes(searchTerm) || 
-                              (product.nameEn && product.nameEn.toLowerCase().includes(searchTerm));
+        const productName = currentLang === 'ar' ? product.name : product.nameEn;
+        const matchesSearch = productName.toLowerCase().includes(searchTerm);
         const matchesCategory = categoryFilter === 'all' || product.category === categoryFilter;
         
         let matchesPrice = true;
         if (priceFilter !== 'all') {
             const price = product.price;
-            if (priceFilter === '20000+') {
-                matchesPrice = price > 20000;
+            if (priceFilter === '50000+') {
+                matchesPrice = price > 50000;
             } else {
                 const [min, max] = priceFilter.split('-').map(Number);
                 matchesPrice = price >= min && price <= max;
@@ -58,26 +61,22 @@ function displayProducts() {
     const container = document.getElementById('products-container');
     
     if (filtered.length === 0) {
-        container.innerHTML = '<div class="no-results">لا توجد منتجات</div>';
+        container.innerHTML = '<div class="no-results">لا توجد منتجات مطابقة للبحث</div>';
         return;
     }
     
     container.innerHTML = filtered.map(product => `
-        <div class="product-card" data-aos="fade-up" onclick="goToProduct('${product.id}')">
-            <img class="product-image" src="${product.image}" alt="${product.name}" loading="lazy">
+        <div class="product-card" onclick="goToProduct('${product.id}')">
+            <img class="product-image" src="${product.image}" alt="${currentLang === 'ar' ? product.name : product.nameEn}" loading="lazy" onerror="this.src='https://via.placeholder.com/300x200?text=Product'">
             <div class="product-info">
-                <h3 class="product-name">${product.name}</h3>
-                <div class="product-price">${product.price.toLocaleString()}</div>
+                <h3 class="product-name">${currentLang === 'ar' ? product.name : product.nameEn}</h3>
+                <div class="product-price">${product.price.toLocaleString()} EGP</div>
                 <button class="btn-details" onclick="event.stopPropagation(); goToProduct('${product.id}')">
-                    ${t('view_details')}
+                    ${t('viewDetails')}
                 </button>
             </div>
         </div>
     `).join('');
-    
-    if (typeof AOS !== 'undefined') {
-        AOS.refresh();
-    }
 }
 
 function setupFilters() {
@@ -94,7 +93,6 @@ function goToProduct(productId) {
     window.location.href = `product.html?id=${productId}`;
 }
 
-// Back to top button
 const backToTop = document.getElementById('backToTop');
 if (backToTop) {
     window.addEventListener('scroll', () => {
@@ -104,21 +102,21 @@ if (backToTop) {
             backToTop.classList.remove('show');
         }
     });
-    
     backToTop.addEventListener('click', () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 }
 
-// Initialize AOS
-if (typeof AOS !== 'undefined') {
-    AOS.init({
-        duration: 800,
-        once: true
-    });
-}
-
-// Load products when page loads
 document.addEventListener('DOMContentLoaded', () => {
-    loadAllProducts();
+    setLanguage(currentLang);
+    loadProducts();
+    
+    const langToggle = document.getElementById('langToggle');
+    if (langToggle) {
+        langToggle.addEventListener('click', () => {
+            const newLang = currentLang === 'ar' ? 'en' : 'ar';
+            setLanguage(newLang);
+            displayProducts();
+        });
+    }
 });

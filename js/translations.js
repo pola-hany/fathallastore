@@ -1,45 +1,83 @@
 const translations = {
     ar: {
-        store_name: "فتح الله",
+        storeName: "فتح الله",
         home: "الرئيسية",
         products: "المنتجات",
-        hero_title: "فتح الله للأجهزة المنزلية",
-        hero_desc: "أفضل العروض على الأجهزة الكهربائية والمنزلية بأعلى جودة وأفضل الأسعار",
-        shop_now: "تسوق الآن",
-        search_placeholder: "ابحث عن منتج...",
-        all_categories: "جميع الفئات",
-        appliances: "الأجهزة المنزلية",
-        all_prices: "جميع الأسعار",
-        view_details: "عرض التفاصيل",
+        sinceBadge: "منذ 1948",
+        heroTitle: "فتح الله للأجهزة المنزلية والإلكترونيات",
+        heroDesc: "أفضل العروض على الهواتف واللابتوبات والشاشات والأجهزة المنزلية بأعلى جودة",
+        feature1: "جودة عالية",
+        feature2: "شحن سريع",
+        feature3: "دعم فني",
+        shopBtn: "تسوق الآن",
+        searchPlaceholder: "ابحث عن منتج...",
+        allCategories: "جميع الفئات",
+        phonesCat: "الهواتف",
+        laptopsCat: "اللابتوبات",
+        tvsCat: "الشاشات",
+        appliancesCat: "الأجهزة المنزلية",
+        accessoriesCat: "الإكسسوارات",
+        allPrices: "جميع الأسعار",
+        featuredTitle: "أحدث المنتجات",
+        featuredDesc: "اكتشف تشكيلتنا المميزة من الأجهزة والإلكترونيات",
+        viewDetails: "عرض التفاصيل",
+        qualityTitle: "جودة مضمونة",
+        qualityDesc: "من أفضل الماركات العالمية",
+        priceTitle: "أفضل الأسعار",
+        priceDesc: "أسعار الجملة للمستهلك",
+        warrantyTitle: "ضمان شامل",
+        warrantyDesc: "ضمان على جميع المنتجات",
+        deliveryTitle: "توصيل سريع",
+        deliveryDesc: "لكافة أنحاء الجمهورية",
+        footerDesc: "منذ 1948، نقدم لعملائنا أفضل المنتجات بأعلى جودة وأقل الأسعار",
+        quickLinks: "روابط سريعة",
+        contactUs: "تواصل معنا",
+        copyright: "© 2024 فتح الله - جميع الحقوق محفوظة",
         specs: "المواصفات",
         description: "الوصف",
-        product_url: "رابط المنتج",
+        productUrl: "رابط المنتج",
         copy: "نسخ",
-        copied: "تم النسخ!",
-        featured_products: "أحدث الأجهزة المنزلية",
-        featured_desc: "اكتشف تشكيلتنا المميزة من الأجهزة الكهربائية والمنزلية",
-        footer: "© 2024 فتح الله - جميع الحقوق محفوظة"
+        copied: "تم النسخ!"
     },
     en: {
-        store_name: "Fathallah",
+        storeName: "Fathallah",
         home: "Home",
         products: "Products",
-        hero_title: "Fathallah Home Appliances",
-        hero_desc: "Best deals on electrical and home appliances with highest quality and best prices",
-        shop_now: "Shop Now",
-        search_placeholder: "Search products...",
-        all_categories: "All Categories",
-        appliances: "Home Appliances",
-        all_prices: "All Prices",
-        view_details: "View Details",
+        sinceBadge: "Since 1948",
+        heroTitle: "Fathallah Home Appliances & Electronics",
+        heroDesc: "Best deals on phones, laptops, TVs, and home appliances with highest quality",
+        feature1: "High Quality",
+        feature2: "Fast Shipping",
+        feature3: "Support",
+        shopBtn: "Shop Now",
+        searchPlaceholder: "Search products...",
+        allCategories: "All Categories",
+        phonesCat: "Phones",
+        laptopsCat: "Laptops",
+        tvsCat: "TVs",
+        appliancesCat: "Appliances",
+        accessoriesCat: "Accessories",
+        allPrices: "All Prices",
+        featuredTitle: "Latest Products",
+        featuredDesc: "Discover our premium collection of electronics and appliances",
+        viewDetails: "View Details",
+        qualityTitle: "Guaranteed Quality",
+        qualityDesc: "From top international brands",
+        priceTitle: "Best Prices",
+        priceDesc: "Wholesale prices for consumers",
+        warrantyTitle: "Full Warranty",
+        warrantyDesc: "Warranty on all products",
+        deliveryTitle: "Fast Delivery",
+        deliveryDesc: "To all over the country",
+        footerDesc: "Since 1948, we provide our customers with the best products at the highest quality",
+        quickLinks: "Quick Links",
+        contactUs: "Contact Us",
+        copyright: "© 2024 Fathallah - All Rights Reserved",
         specs: "Specifications",
         description: "Description",
-        product_url: "Product URL",
+        productUrl: "Product URL",
         copy: "Copy",
-        copied: "Copied!",
-        featured_products: "Latest Home Appliances",
-        featured_desc: "Discover our premium collection of electrical and home appliances",
-        footer: "© 2024 Fathallah - All Rights Reserved"
+        copied: "Copied!"
     }
 };
 
@@ -49,44 +87,61 @@ function setLanguage(lang) {
     currentLang = lang;
     localStorage.setItem('lang', lang);
     
-    if (lang === 'en') {
-        document.documentElement.dir = 'ltr';
-        document.documentElement.lang = 'en';
-    } else {
-        document.documentElement.dir = 'rtl';
-        document.documentElement.lang = 'ar';
+    const t = translations[lang];
+    
+    const elements = {
+        storeName: t.storeName,
+        homeLink: t.home,
+        productsLink: t.products,
+        sinceBadge: t.sinceBadge,
+        heroTitle: t.heroTitle,
+        heroDesc: t.heroDesc,
+        feature1: t.feature1,
+        feature2: t.feature2,
+        feature3: t.feature3,
+        shopBtn: t.shopBtn,
+        allCategories: t.allCategories,
+        phonesCat: t.phonesCat,
+        laptopsCat: t.laptopsCat,
+        tvsCat: t.tvsCat,
+        appliancesCat: t.appliancesCat,
+        accessoriesCat: t.accessoriesCat,
+        allPrices: t.allPrices,
+        featuredTitle: t.featuredTitle,
+        featuredDesc: t.featuredDesc,
+        qualityTitle: t.qualityTitle,
+        qualityDesc: t.qualityDesc,
+        priceTitle: t.priceTitle,
+        priceDesc: t.priceDesc,
+        warrantyTitle: t.warrantyTitle,
+        warrantyDesc: t.warrantyDesc,
+        deliveryTitle: t.deliveryTitle,
+        deliveryDesc: t.deliveryDesc,
+        footerDesc: t.footerDesc,
+        quickLinks: t.quickLinks,
+        contactUs: t.contactUs,
+        copyright: t.copyright,
+        footerHome: t.home,
+        footerProducts: t.products
+    };
+    
+    for (const [id, text] of Object.entries(elements)) {
+        const el = document.getElementById(id);
+        if (el) el.innerText = text;
     }
     
-    document.querySelectorAll('[data-i18n]').forEach(element => {
-        const key = element.getAttribute('data-i18n');
-        if (translations[lang][key]) {
-            if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
-                element.placeholder = translations[lang][key];
-            } else {
-                element.textContent = translations[lang][key];
-            }
-        }
-    });
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) searchInput.placeholder = t.searchPlaceholder;
     
     const langToggle = document.getElementById('langToggle');
     if (langToggle) {
         langToggle.innerHTML = `<i class="fas fa-globe"></i> ${lang === 'ar' ? 'English' : 'العربية'}`;
     }
+    
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    document.documentElement.lang = lang;
 }
 
 function t(key) {
     return translations[currentLang][key] || key;
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-    setLanguage(currentLang);
-    
-    const langToggle = document.getElementById('langToggle');
-    if (langToggle) {
-        langToggle.addEventListener('click', () => {
-            setLanguage(currentLang === 'ar' ? 'en' : 'ar');
-            if (typeof loadProducts === 'function') loadProducts();
-            if (typeof loadProductDetail === 'function') loadProductDetail();
-        });
-    }
-});

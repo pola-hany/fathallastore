@@ -1,43 +1,124 @@
 [
     {
-        "id": "iphone-15-pro",
-        "name": "iPhone 15 Pro",
-        "nameEn": "iPhone 15 Pro",
-        "price": 52000,
-        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro.jpg",
+        "id": "iphone-15-pro-max",
+        "name": "iPhone 15 Pro Max",
+        "nameEn": "iPhone 15 Pro Max",
+        "price": 65000,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro-max.jpg",
         "gallery": [
-            "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro.jpg",
-            "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro-.jpg"
+            "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro-max.jpg",
+            "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro-max-.jpg"
         ],
         "specs": {
-            "display": "6.1 inch, LTPO Super Retina XDR OLED, 120Hz",
-            "processor": "Apple A17 Pro (3nm)",
-            "ram": "8GB",
-            "storage": "256GB",
-            "battery": "3274mAh, 20W wired, 15W wireless",
-            "camera": "48 MP Main, 12 MP Ultra Wide, 12 MP Telephoto"
+            "الشاشة": "6.7 بوصة Super Retina XDR, 120Hz",
+            "المعالج": "Apple A17 Pro",
+            "الرام": "8GB",
+            "التخزين": "256GB",
+            "البطارية": "4441mAh",
+            "الكاميرا": "48MP + 12MP + 12MP"
         },
-        "description": "iPhone 15 Pro يتميز بتصميم من التيتانيوم وشريحة A17 Pro الأقوى على الإطلاق، مع كاميرا احترافية ونظام تشغيل iOS المتطور.",
-        "descriptionEn": "iPhone 15 Pro features a titanium design and the powerful A17 Pro chip, with a professional camera system and iOS."
+        "description": "أقوى هاتف من آبل مع شريحة A17 Pro وكاميرا احترافية وعمر بطارية طويل",
+        "descriptionEn": "Apple's most powerful phone with A17 Pro chip, professional camera, and long battery life"
     },
     {
         "id": "samsung-s24-ultra",
         "name": "Samsung Galaxy S24 Ultra",
         "nameEn": "Samsung Galaxy S24 Ultra",
-        "price": 48000,
+        "price": 55000,
         "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-ultra.jpg",
         "gallery": [
-            "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-ultra.jpg"
+            "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-ultra.jpg",
+            "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-ultra-.jpg"
         ],
         "specs": {
-            "display": "6.8 inch, Dynamic AMOLED 2X, 120Hz, HDR10+",
-            "processor": "Snapdragon 8 Gen 3 (4nm)",
-            "ram": "12GB",
-            "storage": "256GB",
-            "battery": "5000mAh, 45W wired, 15W wireless",
-            "camera": "200 MP Main, 50 MP Telephoto, 12 MP Ultra Wide"
+            "الشاشة": "6.8 بوصة Dynamic AMOLED 2X, 120Hz",
+            "المعالج": "Snapdragon 8 Gen 3",
+            "الرام": "12GB",
+            "التخزين": "512GB",
+            "البطارية": "5000mAh",
+            "الكاميرا": "200MP + 50MP + 12MP"
         },
-        "description": "Samsung Galaxy S24 Ultra الهاتف الرائد الجديد من سامسونج مع تقنيات الذكاء الاصطناعي المتطورة وكاميرا بدقة 200 ميجابكسل.",
-        "descriptionEn": "Samsung Galaxy S24 Ultra with advanced AI features and 200MP camera."
+        "description": "هاتف سامسونج الرائد مع كاميرا 200 ميجابكسل وقلم S Pen المدمج",
+        "descriptionEn": "Samsung flagship with 200MP camera and built-in S Pen"
+    },
+    {
+        "id": "xiaomi-14-ultra",
+        "name": "Xiaomi 14 Ultra",
+        "nameEn": "Xiaomi 14 Ultra",
+        "price": 32000,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-14-ultra.jpg",
+        "gallery": [
+            "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-14-ultra.jpg"
+        ],
+        "specs": {
+            "الشاشة": "6.73 بوصة AMOLED, 120Hz",
+            "المعالج": "Snapdragon 8 Gen 3",
+            "الرام": "16GB",
+            "التخزين": "512GB",
+            "البطارية": "5000mAh",
+            "الكاميرا": "50MP رباعية"
+        },
+        "description": "هاتف شاومي الرائد مع كاميرا احترافية من Leica وشحن سريع 90 وات",
+        "descriptionEn": "Xiaomi flagship with Leica professional camera and 90W fast charging"
+    },
+    {
+        "id": "google-pixel-9-pro",
+        "name": "Google Pixel 9 Pro",
+        "nameEn": "Google Pixel 9 Pro",
+        "price": 38000,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-9-pro.jpg",
+        "gallery": [
+            "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-9-pro.jpg"
+        ],
+        "specs": {
+            "الشاشة": "6.3 بوصة LTPO OLED, 120Hz",
+            "المعالج": "Google Tensor G4",
+            "الرام": "16GB",
+            "التخزين": "256GB",
+            "البطارية": "4700mAh",
+            "الكاميرا": "50MP + 48MP"
+        },
+        "description": "هاتف جوجل بتقنيات الذكاء الاصطناعي المتطورة وكاميرا استثنائية",
+        "descriptionEn": "Google phone with advanced AI features and exceptional camera"
+    },
+    {
+        "id": "nothing-phone-2",
+        "name": "Nothing Phone (2)",
+        "nameEn": "Nothing Phone (2)",
+        "price": 22000,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2.jpg",
+        "gallery": [
+            "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2.jpg"
+        ],
+        "specs": {
+            "الشاشة": "6.7 بوصة LTPO OLED, 120Hz",
+            "المعالج": "Snapdragon 8+ Gen 1",
+            "الرام": "12GB",
+            "التخزين": "256GB",
+            "البطارية": "4700mAh",
+            "الكاميرا": "50MP + 50MP"
+        },
+        "description": "هاتف بتصميم جليف مميز مع واجهة Glyph الخلفية الفريدة",
+        "descriptionEn": "Phone with unique Glyph interface and distinctive design"
+    },
+    {
+        "id": "oneplus-12",
+        "name": "OnePlus 12",
+        "nameEn": "OnePlus 12",
+        "price": 28000,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-12.jpg",
+        "gallery": [
+            "https://fdn2.gsmarena.com/vv/bigpic/oneplus-12.jpg"
+        ],
+        "specs": {
+            "الشاشة": "6.82 بوصة LTPO AMOLED, 120Hz",
+            "المعالج": "Snapdragon 8 Gen 3",
+            "الرام": "16GB",
+            "التخزين": "512GB",
+            "البطارية": "5400mAh",
+            "الكاميرا": "50MP + 64MP + 48MP"
+        },
+        "description": "هاتف وان بلس بشحن سريع 100 وات وكاميرا مطورة مع Hasselblad",
+        "descriptionEn": "OnePlus phone with 100W fast charging and Hasselblad camera"
     }
 ]

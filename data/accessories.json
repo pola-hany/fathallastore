@@ -1,22 +1,122 @@
 [
     {
-        "id": "airpods-pro",
-        "name": "AirPods Pro",
-        "nameEn": "AirPods Pro",
+        "id": "airpods-pro-2",
+        "name": "AirPods Pro 2",
+        "nameEn": "AirPods Pro 2",
         "price": 4500,
         "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-pro-2-hero?wid=2000&hei=2000&fmt=jpeg",
         "gallery": [
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-pro-2-hero?wid=2000&hei=2000&fmt=jpeg"
         ],
         "specs": {
-            "type": "True Wireless",
-            "noise_cancelling": "Active Noise Cancellation",
-            "battery": "6 hours",
-            "charging": "MagSafe Wireless",
-            "water_resistance": "IPX4",
-            "chip": "H2"
+            "النوع": "True Wireless",
+            "إلغاء الضوضاء": "Active Noise Cancellation",
+            "البطارية": "6 ساعات",
+            "الشحن": "MagSafe Wireless",
+            "مقاومة الماء": "IPX4",
+            "الشريحة": "H2"
         },
-        "description": "AirPods Pro مع تقنية إلغاء الضوضاء النشطة وجودة صوت استثنائية ومقاومة للماء.",
-        "descriptionEn": "AirPods Pro with Active Noise Cancellation, exceptional sound quality, and water resistance."
+        "description": "سماعات AirPods Pro مع تقنية إلغاء الضوضاء النشطة وجودة صوت استثنائية",
+        "descriptionEn": "AirPods Pro with Active Noise Cancellation and exceptional sound quality"
+    },
+    {
+        "id": "galaxy-buds2-pro",
+        "name": "Samsung Galaxy Buds2 Pro",
+        "nameEn": "Samsung Galaxy Buds2 Pro",
+        "price": 2800,
+        "image": "https://images.samsung.com/is/image/samsung/p6pim/levant/sm-r510nzvaeg/gallery/levant-galaxy-buds2-pro-sm-r510nzvaeg-534608426",
+        "gallery": [
+            "https://images.samsung.com/is/image/samsung/p6pim/levant/sm-r510nzvaeg/gallery/levant-galaxy-buds2-pro-sm-r510nzvaeg-534608426"
+        ],
+        "specs": {
+            "النوع": "True Wireless",
+            "إلغاء الضوضاء": "ANC",
+            "البطارية": "8 ساعات",
+            "الصوت": "24-bit Hi-Fi",
+            "مقاومة الماء": "IPX7",
+            "البلوتوث": "5.3"
+        },
+        "description": "سماعات سامسونج بصوت Hi-Fi 24-bit وإلغاء ضوضاء متطور",
+        "descriptionEn": "Samsung earbuds with 24-bit Hi-Fi sound and advanced noise cancellation"
+    },
+    {
+        "id": "apple-watch-series-9",
+        "name": "Apple Watch Series 9",
+        "nameEn": "Apple Watch Series 9",
+        "price": 12000,
+        "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-watch-series-9-hero?wid=2000&hei=2000&fmt=jpeg",
+        "gallery": [
+            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-watch-series-9-hero?wid=2000&hei=2000&fmt=jpeg"
+        ],
+        "specs": {
+            "الحجم": "45mm",
+            "الشاشة": "Always-On Retina",
+            "المعالج": "S9 SiP",
+            "البطارية": "18 ساعة",
+            "المقاومة": "50m",
+            "المستشعرات": "ECG, SpO2"
+        },
+        "description": "ساعة Apple Watch Series 9 مع شريحة S9 الجديدة وإيماءة النقر المزدوج",
+        "descriptionEn": "Apple Watch Series 9 with new S9 chip and double tap gesture"
+    },
+    {
+        "id": "galaxy-watch-6-classic",
+        "name": "Samsung Galaxy Watch 6 Classic",
+        "nameEn": "Samsung Galaxy Watch 6 Classic",
+        "price": 8500,
+        "image": "https://images.samsung.com/is/image/samsung/p6pim/levant/sm-r960nzsamea/gallery/levant-galaxy-watch6-classic-sm-r960nzsamea-535886690",
+        "gallery": [
+            "https://images.samsung.com/is/image/samsung/p6pim/levant/sm-r960nzsamea/gallery/levant-galaxy-watch6-classic-sm-r960nzsamea-535886690"
+        ],
+        "specs": {
+            "الحجم": "47mm",
+            "الشاشة": "Super AMOLED",
+            "المعالج": "Exynos W930",
+            "البطارية": "425mAh",
+            "المقاومة": "5ATM",
+            "الرام": "2GB"
+        },
+        "description": "ساعة سامسونج بتصميم كلاسيكي وإطار دوار مع مستشعرات صحية متطورة",
+        "descriptionEn": "Samsung watch with classic design and rotating bezel with advanced health sensors"
+    },
+    {
+        "id": "anker-powerbank-20000",
+        "name": "Anker Power Bank 20000mAh",
+        "nameEn": "Anker Power Bank 20000mAh",
+        "price": 1200,
+        "image": "https://m.media-amazon.com/images/I/61l4q4q4q4L._SL1500_.jpg",
+        "gallery": [
+            "https://m.media-amazon.com/images/I/61l4q4q4q4L._SL1500_.jpg"
+        ],
+        "specs": {
+            "السعة": "20000mAh",
+            "الشحن": "Power Delivery 30W",
+            "المنافذ": "USB-C + 2 USB-A",
+            "الشحن السريع": "30W",
+            "الوزن": "350 جرام",
+            "التقنية": "PowerIQ"
+        },
+        "description": "باور بانك من Anker بسعة كبيرة وشحن سريع 30W لمنافذ متعددة",
+        "descriptionEn": "Anker power bank with large capacity and 30W fast charging for multiple ports"
+    },
+    {
+        "id": "logitech-mx-master-3s",
+        "name": "Logitech MX Master 3S",
+        "nameEn": "Logitech MX Master 3S",
+        "price": 2200,
+        "image": "https://resource.logitech.com/content/dam/logitech/en/products/mice/mx-master-3s/gallery/mx-master-3s-mouse-gallery-1.png",
+        "gallery": [
+            "https://resource.logitech.com/content/dam/logitech/en/products/mice/mx-master-3s/gallery/mx-master-3s-mouse-gallery-1.png"
+        ],
+        "specs": {
+            "النوع": "ماوس لاسلكي",
+            "الحساسية": "8000 DPI",
+            "الأزرار": "6 أزرار",
+            "الاتصال": "Bluetooth + USB",
+            "البطارية": "70 يوم",
+            "الشحن": "USB-C"
+        },
+        "description": "ماوس Logitech MX Master 3S بإحساس هادئ وحساسية عالية للمحترفين",
+        "descriptionEn": "Logitech MX Master 3S mouse with quiet clicks and high sensitivity for professionals"
     }
 ]
